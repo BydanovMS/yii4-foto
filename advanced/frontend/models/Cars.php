@@ -27,7 +27,7 @@ class cars extends \yii\db\ActiveRecord
     }
 
     /**
-     * @inheritdoc
+     * @inheritdoc !
      */
     public function rules()
     {
