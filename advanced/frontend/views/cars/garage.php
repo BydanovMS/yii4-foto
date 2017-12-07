@@ -34,7 +34,19 @@ $this->params['breadcrumbs'][] = $this->title;
                         ?>
                     </div>
                     <div>
-                        Телефон: <?php echo $sellers; ?>
+                         Телефон: 
+     <!--                        ?php      $cars = Cars::find()->joinWith('car_sel_id')->all(); -->
+	    // цикл по модели Country
+            // foreach ($cars as $c) {
+	         // обращение к модели City
+     <!--            $sellers = $c->Sellers;-->
+     <!--            echo $c->name;-->
+     <!--            foreach ($sellers as $s) {-->
+     <!--                   echo $s->sel_tel;-->
+     <!--              }-->
+     <!--       }    ?>-->
+                        
+                        
                     </div>
                     <div>
                         Город: <?php echo $sellers; ?>

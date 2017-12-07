@@ -62,4 +62,9 @@ class cars extends \yii\db\ActiveRecord
     {
         return $this->hasOne(Sellers::className(), ['sel_id' => 'car_sel_id']);
     }
+    
+        public function getTel()
+    {
+        return $this->hasMany(Sellers::className(), ['fkey' => 'sel_id']);
+    }
 }
